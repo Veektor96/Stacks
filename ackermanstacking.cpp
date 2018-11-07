@@ -4,7 +4,6 @@
  *             | n+1, daca m=0
  *   A(m,n) = -| A(m-1,1), daca m>0 si n=0
  *             | A(m-1,A(m,n-1)), daca m>0 si n>0
- *
  */
 
 #include<iostream>
