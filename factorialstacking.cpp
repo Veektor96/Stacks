@@ -41,7 +41,7 @@ int main(){
     int direction=1;
     int oldval1,oldval2;
     while(somestack.whathight()){
-        cout<<endl<<somestack.whathight()<<endl;
+        cout<<somestack.whathight()<<endl;
         if(direction==1){
             somestack.pop(&oldval1);
             somestack.push(oldval1);
